@@ -16,5 +16,6 @@ git config --global user.email "[사용자이메일]")
 3.git branch : branch 조회  
 4.git add . 또는 git add 파일명 : 해당 파일들을 로컬저장소에 추가  
 5.git commit -메세지 : 해당 메세지와 함께 위의 파일들을 로컬저장소에 커밋  
-6.git push origin master : 원격저장소의 master 브랜치에 소스 보내기  
-
+6.git push origin 브랜치명 : 원격저장소의 해당 브랜치에 소스 보내기  
+  -반대로 원격 저장소의 수정된 내용을 가져올경우  
+  -git pull origin 브랜치명
