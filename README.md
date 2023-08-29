@@ -6,8 +6,8 @@
 git-bash  
 
 (처음에 한번만 이메일과 유저명확인  
-git config --global user.name "[사용자명]"  
-git config --global user.email "[사용자이메일]")  
+git config --global user.name "사용자명"  
+git config --global user.email "사용자이메일")  
 
 1.git init : git 과 연동할 폴더 초기화  
 2.git remote add origin https://github.com/mongdamhwa/naver0829study.git : git 원격저장소에 새로 연결  
