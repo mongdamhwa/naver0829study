@@ -18,7 +18,7 @@ public class Ex1_KeyInput {
 		Scanner sc = new Scanner(System.in);
 		/*scan 정도 까지 쓰고 ctrl+space눌러서 java.util.Scanner; 실행해서
 		위에 import java.util.Scanner; 선언해줘야 제대로 작동*/
-		
+		//new로 객체를 생성, 이 변수를 인스턴스 변수라고 한다 (위에선 sc, 변수명은 임의로 줄수있음)
 		/*
 		System.out.println("이름을 입력하세요");
 		String name = sc.nextLine();// 한줄 전체를 읽어온다 공백이 있어도 읽어옴
@@ -28,8 +28,7 @@ public class Ex1_KeyInput {
 		int age = sc.nextInt();
 		밑에 콘솔창에 숫자 아라비아로 쓰면 값 출력됨, 한글로 쓰면 안됨
 		System.out.println("응! 나는 " + age + " 세야!");
-		new로 객체를 생성, 이 변수를 인스턴스 변수라고 한다
-		(위에선 sc, 변수명은 임의로 줄수있음)
+		
 		*/
 		
 		/*근데 위에 순서(문자열(이름)먼저 입력후 숫자(나이))대로 안하고 반대로,

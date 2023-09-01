@@ -20,6 +20,7 @@ public class Ex10_Exam {
 		5개 이상 10프로 할인된 금액: 5400원
 		*/
 		
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("상품명을 입력하세요");
@@ -35,14 +36,19 @@ public class Ex10_Exam {
 		System.out.println("수량 : "+number);
 		System.out.println("단가 : "+price+"\n");
 		
-		if(number>=5)
+		
+		NumberFormat numberFormat1=NumberFormat.getInstance();
+		if(number>=5) {
 		System.out.println("총금액 : "+price*number);
 		System.out.println("5개 이상 10프로 할인된 금액 : "+((price*number)-(price*number)/10));	
 		
-		NumberFormat numberFormat1=NumberFormat.getInstance();
 		System.out.println("총금액 : "+numberFormat1.format(price*number));
-		System.out.println("5개 이상 10프로 할인된 금액 : "+numberFormat1.format((price*number)-(price*number)/10));	
+		System.out.println("5개 이상 10프로 할인된 금액 : "+numberFormat1.format((price*number)-(price*number)/10));
 		//이건 쉼표 붙는 버전
+		}
+		else {
+			System.out.println("총금액 : "+numberFormat1.format(price*number));
+		}
 	}
 
 }
